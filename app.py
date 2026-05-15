@@ -19,9 +19,9 @@ nav_col1, nav_col2, nav_col3 = st.columns([4, 1, 1])
 with nav_col1:
     st.header("Membership Inference Attack Analyzer")
 with nav_col2:
-    st.link_button("📄 Read Final Report", "YOUR_REPORT_LINK_HERE", use_container_width=True)
+    st.link_button("📄 Read Final Report", "https://drive.google.com/file/d/17VoHHkKLatHDOlzqXfst9439dGDQ2z-q/view?usp=sharing", use_container_width=True)
 with nav_col3:
-    st.link_button("💻 View on GitHub", "YOUR_GITHUB_LINK_HERE", use_container_width=True)
+    st.link_button("💻 View on GitHub", "https://github.com/kayshaah/mia", use_container_width=True)
 st.divider()
 
 # CIFAR-10 Class Names
